@@ -3,7 +3,7 @@ docker for pritunl
 
 ##Step1 
 ```
-docker-composer up
+docker-compose up
 ```
 
 ##Step2

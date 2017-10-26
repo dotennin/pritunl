@@ -2,10 +2,6 @@ version: '2'
 services:
     pritunl:
         image: sambaiz/pritunl
-        environment:
-            VIRTUAL_HOST: vpn.dotennin.tk
-            LETSENCRYPT_HOST: vpn.dotennin.tk
-            LETSENCRYPT_EMAIL: wenhua4438@gmail.com
         ports:
             - "12345:12345/udp"
             - "80:80"
